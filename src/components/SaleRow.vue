@@ -1,15 +1,15 @@
 <template>
-  <tr :style='styleObject'>
+  <tr :style=classObject>
     <td>{{ id }}</td>
     <td>{{ article }}</td>
-    <td>
+    <td style="text-align: left;">
       <div>
         <ul>
           <li v-for='r in items' :key='r.id'>{{ r.id }} - {{ r.item }}</li>
         </ul>
       </div>
     </td>
-    <td>
+    <td >
       <img :src="imagen.source" :alt="imagen.descripcion" />
     </td>
   </tr>
@@ -29,15 +29,15 @@ export default {
     styleObject: {},
   },
   methods: {
-    classObject() {
+    classObject1() {
       return this.id % 2 === 0
         ? 'background-color:white'
         : 'background-color:beige';
     },
   },
   computed: {
-    classObject1(index) {
-      return index % 2 === 0
+    classObject() {
+      return this.id % 2 === 0
         ? 'background-color:white'
         : 'background-color:beige';
     },

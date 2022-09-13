@@ -1,5 +1,7 @@
 <template>
-  <p class="">Entrega 4 - septiembre 2022</p>
+   <div class="coder--header">
+    <h1>Entrega 4 - Septiembre 2022</h1>
+    </div>
 </template>
 
 <script>
@@ -8,9 +10,5 @@ export default {
 };
 </script>
 
-<style scoped>
-p {
-  /* Center horizontally*/
-  text-align: center;
-}
+<style>
 </style>

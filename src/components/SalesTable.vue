@@ -16,7 +16,6 @@
             :article="sale.article"
             :items="sale.items"
             :imagen="sale.imagen"
-            :style-object="sale.styleObject"
           ></tr>
         </tbody>
       </table>
@@ -52,7 +51,12 @@ export default {
         {
           id: 2,
           article: 'Panaderia',
-          items: [],
+          items: [
+            { id: 1, item: 'Pan' },
+            { id: 2, item: 'Cremona' },
+            { id: 3, item: 'Media luna' },
+            { id: 4, item: 'Prepizza' },
+          ],
           imagen: {
             source: './imagenes/panaderia.jpg',
             descripcion: 'La Panaderia del barrio.',
@@ -108,6 +112,6 @@ table {
   box-shadow: 2px 2px 10px rgb(142, 142, 142);
   transition: 0.3s;
   color: #2c3e50;
-  text-align: left;
+  text-align: center;
 }
 </style>

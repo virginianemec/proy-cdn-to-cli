@@ -1,6 +1,6 @@
 <template>
   <div class="coder--header">
-    <h1>{{ title }} - {{ presentacion_name }}</h1>
+    <h1>{{ title }} - {{ presentation_name }}</h1>
     <div class='descripcion'>{{ workDescription }}</div>
   </div>
 </template>
@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       title: 'Hello Coderhouse!',
-      presentacion_name: 'Mi nombre es Virginia Nemec',
+      presentation_name: 'Mi nombre es Virginia Nemec',
       workDescription: 'Desafío 3: Proyecto02 -> de CDN a CLI',
     };
   },

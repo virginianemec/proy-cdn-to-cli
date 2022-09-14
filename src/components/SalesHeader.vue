@@ -12,7 +12,7 @@ export default {
     return {
       title: 'Hello Coderhouse!',
       presentacion_name: 'Mi nombre es Virginia Nemec',
-      workDescription: 'Desafío: Proyecto 2',
+      workDescription: 'Desafío 3: Proyecto02 -> de CDN a CLI',
     };
   },
 };

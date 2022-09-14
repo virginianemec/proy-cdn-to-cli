@@ -1,7 +1,7 @@
 <template>
   <div class="coder--header">
     <h1>{{ title }} - {{ presentation_name }}</h1>
-    <div class='descripcion'>{{ workDescription }}</div>
+    <div class='descripcion' v-html="workDescription"></div>
   </div>
 </template>
 
@@ -12,7 +12,8 @@ export default {
     return {
       title: 'Hello Coderhouse!',
       presentation_name: 'Mi nombre es Virginia Nemec',
-      workDescription: 'Desafío 3: Proyecto02 -> de CDN a CLI',
+      workDescription: `DESAFIO DE VUE CDN A VUE CLI <br>
+Convierte tu desafío de la Clase 04 de Vue CDN a Vue Cli. `,
     };
   },
 };

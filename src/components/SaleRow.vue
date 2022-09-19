@@ -23,7 +23,7 @@ export default {
     id: Number,
     items: Array,
     imagen: {
-      sourse: String,
+      source: String,
       descripcion: String,
     },
     styleObject: {},
@@ -44,5 +44,3 @@ export default {
   },
 };
 </script>
-
-<style></style>

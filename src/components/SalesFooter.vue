@@ -10,5 +10,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+  .coder--header {
+    background-color: #393B43;
+  }
 </style>

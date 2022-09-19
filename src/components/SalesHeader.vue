@@ -19,7 +19,7 @@ Convierte tu desafío de la Clase 04 de Vue CDN a Vue Cli. `,
 };
 </script>
 
-<style >
+<style scoped>
 .coder--header {
   background-color: #393B43;
 }
